@@ -1,0 +1,18 @@
+.computer {
+  background-color: #0a0b0d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.computer .rectangle-wrapper {
+  background-color: #0a0b0d;
+  width: 1920px;
+  height: 8054px;
+}
+
+.computer .rectangle {
+  height: 1080px;
+  background-color: #d0131f;
+}
