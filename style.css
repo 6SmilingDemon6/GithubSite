@@ -31,95 +31,123 @@
   object-fit: cover;
 }
 
+.computer .text-wrapper {
+  position: absolute;
+  width: 884px;
+  top: 165px;
+  left: 58px;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  color: #3dbaec80;
+  font-size: 1000px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.computer .group {
+  position: absolute;
+  width: 578px;
+  height: 624px;
+  top: 228px;
+  left: 960px;
+}
+
 .computer .rectangle {
   position: fixed;
   width: 1920px;
-  height: 80px;
+  height: 50px;
   top: 0;
   left: 0;
-  background-color: #0a0b0d;
+  background-color: var(--variable-collection-black);
 }
 
-.computer .text-wrapper {
+.computer .frame {
+  width: 814px;
+  justify-content: flex-end;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
   position: fixed;
-  width: 58px;
-  top: 27px;
-  left: 58px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  top: 14px;
 }
 
 .computer .text-wrapper-2 {
-  position: fixed;
-  width: 156px;
-  top: 27px;
-  left: 197px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
   font-family: "Inter-Regular", Helvetica;
+  color: var(--variable-collection-color);
+  font-size: 18px;
   font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
 }
 
 .computer .text-wrapper-3 {
-  position: fixed;
-  width: 101px;
-  top: 27px;
-  left: 384px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
+  color: #e9f5fe;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
+}
+
+.computer .frame-2 {
+  width: 790px;
+  left: 1065px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: fixed;
+  top: 14px;
 }
 
 .computer .text-wrapper-4 {
   position: fixed;
-  width: 38px;
-  top: 27px;
-  left: 1850px;
+  top: 13px;
+  left: 1855px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
+  color: #e9f5fe;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.computer .texture {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: screen;
+  object-fit: cover;
+}
+
+.computer .portfolio {
+  position: fixed;
+  width: 151px;
+  top: 6px;
+  left: 884px;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.computer .span {
+  color: #e9f5fe;
 }
 
 .computer .text-wrapper-5 {
-  position: fixed;
-  width: 38px;
-  top: 27px;
-  left: 1804px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
   color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.computer .text-wrapper-6 {
-  position: fixed;
-  width: 38px;
-  top: 27px;
-  left: 1758px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
 }
