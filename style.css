@@ -6,13 +6,120 @@
   width: 100%;
 }
 
-.computer .rectangle-wrapper {
+.computer .div {
   background-color: #0a0b0d;
   width: 1920px;
   height: 8054px;
+  position: relative;
+}
+
+.computer .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #d0131f;
+}
+
+.computer .portret {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 80px;
+  left: 0;
+  object-fit: cover;
 }
 
 .computer .rectangle {
-  height: 1080px;
-  background-color: #d0131f;
+  position: fixed;
+  width: 1920px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #0a0b0d;
+}
+
+.computer .text-wrapper {
+  position: fixed;
+  width: 58px;
+  top: 27px;
+  left: 58px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .text-wrapper-2 {
+  position: fixed;
+  width: 156px;
+  top: 27px;
+  left: 197px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .text-wrapper-3 {
+  position: fixed;
+  width: 101px;
+  top: 27px;
+  left: 384px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .text-wrapper-4 {
+  position: fixed;
+  width: 38px;
+  top: 27px;
+  left: 1850px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .text-wrapper-5 {
+  position: fixed;
+  width: 38px;
+  top: 27px;
+  left: 1804px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .text-wrapper-6 {
+  position: fixed;
+  width: 38px;
+  top: 27px;
+  left: 1758px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
