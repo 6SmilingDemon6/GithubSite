@@ -44,7 +44,7 @@
   width: 63px;
   top: 227px;
   left: 960px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: var(--variable-collection-blue);
   font-size: 48px;
@@ -58,7 +58,7 @@
   width: 147px;
   top: 284px;
   left: 960px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: var(--variable-collection-blue);
   font-size: 36px;
@@ -140,7 +140,7 @@
   width: 197px;
   top: 503px;
   left: 960px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: var(--variable-collection-blue);
   font-size: 36px;
@@ -255,7 +255,7 @@
   width: 197px;
   top: 721px;
   left: 960px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: var(--variable-collection-black);
   font-size: 36px;
@@ -453,7 +453,7 @@
   position: absolute;
   top: 366px;
   left: 306px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: #d0131f;
   font-size: 48px;
@@ -475,7 +475,7 @@
   color: #000000;
   position: absolute;
   left: 306px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   font-size: 48px;
   letter-spacing: 0;
@@ -505,7 +505,7 @@
   color: #e9f5fe;
   position: absolute;
   left: 306px;
-  font-family: "Bebas Neue-Regular", Helvetica;
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   font-size: 48px;
   letter-spacing: 0;
@@ -697,7 +697,7 @@
   width: 151px;
   top: 6px;
   left: 884px;
-  font-family: "Bebas Neue";
+  font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
   color: transparent;
   font-size: 48px;
