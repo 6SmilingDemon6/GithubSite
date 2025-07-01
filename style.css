@@ -695,7 +695,7 @@
 .computer .portfolio {
   position: fixed;
   width: 151px;
-  top: 6px;
+  top: 0px;
   left: 884px;
   font-family:'Bebas Neue', Helvetica;
   font-weight: 400;
