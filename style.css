@@ -9,17 +9,25 @@
 .computer .div {
   background-color: #0a0b0d;
   width: 1920px;
-  height: 8054px;
+  height: 7565px;
   position: relative;
 }
 
 .computer .overlap-group {
   position: absolute;
   width: 1920px;
-  height: 1080px;
+  height: 3240px;
   top: 0;
   left: 0;
+}
+
+.computer .rectangle {
+  position: absolute;
+  height: 1080px;
+  top: 0;
   background-color: #d0131f;
+  width: 1920px;
+  left: 0;
 }
 
 .computer .portret {
@@ -32,20 +40,6 @@
 }
 
 .computer .text-wrapper {
-  position: absolute;
-  width: 884px;
-  top: 165px;
-  left: 58px;
-  font-family: "Bebas Neue-Regular", Helvetica;
-  color: #3dbaec80;
-  font-size: 1000px;
-  white-space: nowrap;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.computer .text-wrapper-2 {
   position: absolute;
   width: 63px;
   top: 227px;
@@ -77,11 +71,11 @@
   color: #0a0b0d;
 }
 
-.computer .text-wrapper-3 {
+.computer .text-wrapper-2 {
   color: #3dbaec;
 }
 
-.computer .text-wrapper-4 {
+.computer .text-wrapper-3 {
   position: absolute;
   top: 313px;
   left: 960px;
@@ -93,7 +87,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-5 {
+.computer .text-wrapper-4 {
   position: absolute;
   top: 347px;
   left: 960px;
@@ -105,7 +99,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-6 {
+.computer .text-wrapper-5 {
   position: absolute;
   top: 381px;
   left: 960px;
@@ -117,7 +111,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-7 {
+.computer .text-wrapper-6 {
   position: absolute;
   top: 415px;
   left: 960px;
@@ -129,7 +123,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-8 {
+.computer .text-wrapper-7 {
   position: absolute;
   top: 449px;
   left: 960px;
@@ -168,7 +162,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-9 {
+.computer .text-wrapper-8 {
   position: absolute;
   width: 509px;
   top: 565px;
@@ -181,7 +175,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-10 {
+.computer .text-wrapper-9 {
   position: absolute;
   width: 509px;
   top: 599px;
@@ -194,7 +188,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-11 {
+.computer .text-wrapper-10 {
   position: absolute;
   width: 509px;
   top: 633px;
@@ -207,7 +201,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-12 {
+.computer .text-wrapper-11 {
   position: absolute;
   width: 509px;
   top: 667px;
@@ -220,7 +214,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-13 {
+.computer .text-wrapper-12 {
   position: absolute;
   top: 749px;
   left: 960px;
@@ -232,7 +226,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-14 {
+.computer .text-wrapper-13 {
   position: absolute;
   top: 783px;
   left: 960px;
@@ -244,7 +238,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-15 {
+.computer .text-wrapper-14 {
   position: absolute;
   top: 817px;
   left: 960px;
@@ -256,7 +250,7 @@
   line-height: normal;
 }
 
-.computer .text-wrapper-16 {
+.computer .text-wrapper-15 {
   position: absolute;
   width: 197px;
   top: 721px;
@@ -270,13 +264,377 @@
   white-space: nowrap;
 }
 
-.computer .rectangle {
-  position: fixed;
+.computer .element {
+  position: absolute;
+  width: 337px;
+  height: 900px;
+  top: 99px;
+  left: 1543px;
+  object-fit: cover;
+}
+
+.computer .rectangle-2 {
+  position: absolute;
+  height: 1080px;
+  top: 2160px;
+  background-color: var(--variable-collection-red);
   width: 1920px;
-  height: 50px;
+  left: 0;
+}
+
+.computer .img {
+  position: absolute;
+  width: 578px;
+  height: 819px;
+  top: 2290px;
+  left: 47px;
+  object-fit: cover;
+}
+
+.computer .element-2 {
+  position: absolute;
+  width: 578px;
+  height: 819px;
+  top: 2290px;
+  left: 671px;
+  object-fit: cover;
+}
+
+.computer .element-3 {
+  position: absolute;
+  width: 716px;
+  height: 1023px;
+  top: 1108px;
+  left: 1154px;
+  object-fit: cover;
+}
+
+.computer .element-4 {
+  position: absolute;
+  width: 578px;
+  height: 819px;
+  top: 2290px;
+  left: 1292px;
+  object-fit: cover;
+}
+
+.computer .element-5 {
+  position: absolute;
+  width: 430px;
+  height: 646px;
+  top: 1620px;
+  left: 241px;
+  object-fit: cover;
+}
+
+.computer .element-6 {
+  position: absolute;
+  width: 524px;
+  height: 786px;
+  top: 1292px;
+  left: 641px;
+  object-fit: cover;
+}
+
+.computer .element-7 {
+  position: absolute;
+  width: 458px;
+  height: 688px;
+  top: 977px;
+  left: 271px;
+  object-fit: cover;
+}
+
+.computer .element-8 {
+  position: absolute;
+  width: 113px;
+  height: 1080px;
+  top: 1080px;
+  left: 50px;
+}
+
+.computer .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 4322px;
+  left: 0;
+  background-color: var(--variable-collection-red);
+}
+
+.computer .element-9 {
+  position: absolute;
+  width: 514px;
+  height: 1028px;
+  top: 26px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.computer .element-10 {
+  position: absolute;
+  width: 539px;
+  height: 1028px;
+  top: 26px;
+  left: 595px;
+  object-fit: cover;
+}
+
+.computer .element-11 {
+  position: absolute;
+  width: 348px;
+  height: 664px;
+  top: 208px;
+  left: 1522px;
+  object-fit: cover;
+}
+
+.computer .element-12 {
+  position: absolute;
+  width: 716px;
+  height: 165px;
+  top: 26px;
+  left: 1154px;
+}
+
+.computer .element-13 {
+  position: absolute;
+  width: 348px;
+  height: 537px;
+  top: 208px;
+  left: 1154px;
+  object-fit: cover;
+}
+
+.computer .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 6485px;
+  left: 0;
+  background-color: var(--variable-collection-red);
+}
+
+.computer .overlap-3 {
+  position: absolute;
+  width: 1821px;
+  height: 622px;
+  top: 25px;
+  left: 50px;
+}
+
+.computer .element-14 {
+  position: absolute;
+  width: 479px;
+  height: 214px;
+  top: 408px;
+  left: 670px;
+  object-fit: cover;
+}
+
+.computer .overlap-4 {
+  position: absolute;
+  width: 716px;
+  height: 414px;
   top: 0;
   left: 0;
+}
+
+.computer .element-15 {
+  position: absolute;
+  width: 716px;
+  height: 403px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.computer .text-wrapper-16 {
+  position: absolute;
+  top: 366px;
+  left: 306px;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0131f;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .overlap-5 {
+  position: absolute;
+  width: 716px;
+  height: 414px;
+  top: 0;
+  left: 1105px;
+}
+
+.computer .text-wrapper-17 {
+  top: 366px;
+  color: #000000;
+  position: absolute;
+  left: 306px;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .overlap-6 {
+  position: absolute;
+  width: 715px;
+  height: 413px;
+  top: 652px;
+  left: 602px;
+}
+
+.computer .element-16 {
+  position: absolute;
+  width: 715px;
+  height: 402px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.computer .text-wrapper-18 {
+  top: 365px;
+  color: #e9f5fe;
+  position: absolute;
+  left: 306px;
+  font-family: "Bebas Neue-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.computer .element-17 {
+  position: absolute;
+  width: 715px;
+  height: 402px;
+  top: 3259px;
+  left: 419px;
+  object-fit: cover;
+}
+
+.computer .element-18 {
+  position: absolute;
+  width: 716px;
+  height: 402px;
+  top: 3259px;
+  left: 1154px;
+}
+
+.computer .element-19 {
+  position: absolute;
+  width: 348px;
+  height: 619px;
+  top: 3682px;
+  left: 418px;
+  object-fit: cover;
+}
+
+.computer .element-20 {
+  position: absolute;
+  width: 347px;
+  height: 619px;
+  top: 3682px;
+  left: 786px;
+}
+
+.computer .element-21 {
+  position: absolute;
+  width: 348px;
+  height: 619px;
+  top: 3682px;
+  left: 1154px;
+  object-fit: cover;
+}
+
+.computer .element-22 {
+  position: absolute;
+  width: 348px;
+  height: 619px;
+  top: 3682px;
+  left: 1518px;
+  object-fit: cover;
+}
+
+.computer .element-23 {
+  top: 3274px;
+  left: 50px;
+  position: absolute;
+  width: 347px;
+  height: 1012px;
+  object-fit: cover;
+}
+
+.computer .element-24 {
+  top: 5438px;
+  left: 786px;
+  position: absolute;
+  width: 347px;
+  height: 1012px;
+  object-fit: cover;
+}
+
+.computer .element-25 {
+  position: absolute;
+  width: 347px;
+  height: 659px;
+  top: 5542px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.computer .element-26 {
+  position: absolute;
+  width: 348px;
+  height: 408px;
+  top: 5542px;
+  left: 418px;
+  object-fit: cover;
+}
+
+.computer .element-27 {
+  position: absolute;
+  width: 715px;
+  height: 364px;
+  top: 6007px;
+  left: 1155px;
+  object-fit: cover;
+}
+
+.computer .element-28 {
+  position: absolute;
+  width: 715px;
+  height: 364px;
+  top: 5516px;
+  left: 1155px;
+  object-fit: cover;
+}
+
+.computer .element-29 {
+  position: absolute;
+  width: 347px;
+  height: 335px;
+  top: 5984px;
+  left: 418px;
+  object-fit: cover;
+}
+
+.computer .rectangle-3 {
+  position: fixed;
+  height: 50px;
+  top: 0;
   background-color: var(--variable-collection-black);
+  width: 1920px;
+  left: 0;
 }
 
 .computer .frame {
@@ -290,19 +648,19 @@
   top: 14px;
 }
 
-.computer .text-wrapper-17 {
+.computer .text-wrapper-19 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
   font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
   color: var(--variable-collection-color);
   font-size: 18px;
-  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.computer .text-wrapper-18 {
+.computer .text-wrapper-20 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -315,25 +673,13 @@
 }
 
 .computer .frame-2 {
-  width: 790px;
+  width: 815px;
   left: 1065px;
   display: flex;
   align-items: center;
   gap: 30px;
   position: fixed;
   top: 14px;
-}
-
-.computer .text-wrapper-19 {
-  position: fixed;
-  top: 13px;
-  left: 1855px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e9f5fe;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .computer .texture {
@@ -361,10 +707,10 @@
   white-space: nowrap;
 }
 
-.computer .text-wrapper-20 {
+.computer .text-wrapper-21 {
   color: #e9f5fe;
 }
 
-.computer .text-wrapper-21 {
+.computer .text-wrapper-22 {
   color: #ffffff;
 }
